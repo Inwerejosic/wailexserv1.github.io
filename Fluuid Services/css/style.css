@@ -1,0 +1,191 @@
+/* This site was designed by Inwerejosic*/
+body{
+	font: 16px/1.5 Ariel, Helvelica, sans-serif;
+	padding:0;
+	margin:0;
+	background:#ffe6e6;
+}
+
+/* Global */
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+/* Header */
+
+header{
+  background:#27AE60;
+  color:#ffffff;
+  padding-top:15px;
+  min-height:55px;
+  background:url('../img/IMG-20190621-WA0007.jpg') repeat;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .current a{
+	color: #200c45;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:#f4b86f;
+	font-weight: bold;	 
+}
+
+/* Footer */
+footer{
+  padding:20px;
+  margin-top:25px;
+  color:#ffffff;
+  background:url('../img/IMG-20190621-WA0007.jpg') repeat;
+  text-align: center;
+}  
+
+/* Showcase */
+#showcase{
+  min-height:550px;
+  background:url('../img/rsz_img-20190712-wa0017.jpg') repeat;
+  text-align:center;
+  color:brown;
+}
+
+#showcase h1{
+	background: white;
+	margin-top:0px;
+	font-size: 50px;
+	margin-bottom:20px;
+	font-weight: bold;	
+}
+
+#showcase p{
+	font-size: 20px;
+	color: brown;
+}
+
+#lol{
+	font-weight: bold;
+}
+
+#products {
+	background:#ffe6e6;
+	margin-top:25px;
+	text-align:center;
+	color:lightskyblue;
+}
+
+#products h1{
+	color: red;
+	font-weight: bold;	
+}
+
+#services {
+	background:#ffe6e6;
+	margin-top:25px;
+	text-align:center;
+	color:blue;
+}
+
+#services h1{
+	color:green;
+	font-weight: bold;	
+}
+
+#coverage {
+	background:#ffe6e6;
+	margin-top:25px;
+	text-align:center;
+	color:grey;
+}
+
+#coverage h1,th,td{
+	color:gold;
+	font-weight: bold;
+}
+
+
+#values {
+	background:#ffe6e6;
+	margin-top:25px;
+	text-align:center;
+	color:#660000;
+}
+
+#values h1,th,td{
+	color:#bf00ff;
+	font-weight: bold;
+}
+
+#owner {
+	background:#ffe6e6;
+	margin-top:25px;
+	text-align:center;
+	color:#660000;
+}
+
+#owner h1{
+	color:blue;
+	font-weight: bold;
+}
+
+#address {
+	background:#ffe6e6;
+	margin-top:25px;
+	text-align:center;
+	color:#660000;
+}
+
+#address h1,th,td{
+	color:brown;
+	font-weight: bold;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+}
